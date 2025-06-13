@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/Hazavao")@AllArgsConstructor
+@RequestMapping("/hazavao")@AllArgsConstructor
 public class ChatGptController {
 
     private final ChatGptService chatGptService;
